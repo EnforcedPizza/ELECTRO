@@ -79,11 +79,11 @@ async def setnick(ctx, user: discord.Member, *, nickname):
 
 @bot.command()
 async def invite():
-	await bot.say('Add me to your server by this link - https://discordapp.com/api/oauth2/authorize?client_id=510491243155816449&permissions=8&scope=bot')
+	await bot.say('Add me to your server by this link - https://discordapp.com/api/oauth2/authorize?client_id=529546833027006485&permissions=8&scope=bot')
 	
 @bot.command()
 async def authlink():
-	await bot.say('https://discordapp.com/api/oauth2/authorize?client_id=510491243155816449&permissions=8&scope=bot')	
+	await bot.say('https://discordapp.com/api/oauth2/authorize?client_id=529546833027006485&permissions=8&scope=bot')	
 
 @bot.command(pass_context = True)  
 async def userinfo(ctx, user: discord.Member):
@@ -104,7 +104,7 @@ async def avatar(ctx, user: discord.Member):
 												
 @bot.command()
 async def ownerinfo():
-    await bot.say("**__THIS BOT WAS CREATED BY ADIB HOQUE__**    **DISCORD** - `@Adib Hoque#5782` **YOUTUBE** - YouTube.com/AdibHoque")	
+    await bot.say("**__THIS BOT WAS CREATED BY CALLMEHMILES__**    **DISCORD** - `CALLMEHMILES#0807`)	
 	  		   	   	
 @bot.command(pass_context=True)
 @commands.has_permissions(kick_members=True)
